@@ -20,4 +20,4 @@ require __DIR__.'/backend.php';
 require __DIR__.'/application.php';
 
 
-Route::get('/',[FrontendController::class,'index']);
+Route::get('/',[FrontendController::class,'index'])->name('frontend.dashboard');
